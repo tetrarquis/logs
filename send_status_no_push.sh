@@ -12,5 +12,4 @@ date >> /Users/julian/src/logs/log_hardware_up
 /usr/bin/git add log_hardware_up
 /usr/bin/git add bolt.txt
 
-mail -s "[Status] Bolt daemon is up and running" m.angeles.martos@bmn.es,jgarrido@iaa.es < /dev/null
-
+mail -s "$(echo -e "[Status] Bolt daemon is up and running\nFrom: Congelador <jgs.mamg@gmail.com> Reply-to: jgs.mamg@gmail.com\nContent-Type: text/html\n")" julianillog@hotmail.com < /dev/null
